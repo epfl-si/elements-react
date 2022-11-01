@@ -1,0 +1,26 @@
+{
+  "name": "@epfl-si/elements-react",
+  "version": "0.1.0",
+  "description": "React + TypeScript bindings for https://epfl-si.github.io/elements/",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/epfl-si/epfl-theme-elements-react.git"
+  },
+  "keywords": [
+    "EPFL",
+    "elements",
+    "React",
+    "TypeScript",
+    "bootstrap"
+  ],
+  "author": "EPFL ISAS-FSD <isas-fsd@groupes.epfl.ch>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/epfl-si/epfl-theme-elements-react/issues"
+  },
+  "homepage": "https://github.com/epfl-si/epfl-theme-elements-react#readme"
+}
