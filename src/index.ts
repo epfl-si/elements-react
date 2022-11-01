@@ -1,2 +1,1 @@
-const nawak = "This script unintentionally left unblank";
-export { nawak };
+export { Site, type SiteProps } from './pages/site';
