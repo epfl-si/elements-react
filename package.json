@@ -57,6 +57,7 @@
     "typescript": "^4.8.4"
   },
   "dependencies": {
-    "core-js": "^3.25.5"
+    "core-js": "^3.25.5",
+    "epfl-elements": "epfl-si/elements"
   }
 }
