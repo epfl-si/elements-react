@@ -7,7 +7,9 @@
   "scripts": {
     "build": "set -e -x; rm -rf dist ; NODE_ENV=production babel src/* --out-dir dist --extensions '.ts,.tsx' --source-maps; NODE_ENV=production tsc --project tsconfig.json",
     "prepare": "yarn build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "yarn build-epfl-elements",
+    "build-epfl-elements": "set -e -x; for dir in node_modules/epfl-elements ../../epfl-elements; do test -d \"$dir/dist\" && exit 0; if test -d \"$dir\"; then (cd \"$dir\"; yarn; yarn dist); exit 0; fi; done"
   },
   "files": [
     "dist/**"
